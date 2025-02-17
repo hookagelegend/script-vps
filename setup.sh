@@ -244,20 +244,20 @@ EOF
 echo -e "$green[INFO]$NC Install SSH & OpenVPN!"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/hokagelegend9999/original/main/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/hookagelegend/script-vps/refs/heads/main/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 #Instal Xray
 echo -e "$green[INFO]$NC Install Install XRAY!"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/hokagelegend9999/original/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget https://raw.githubusercontent.com/hookagelegend/script-vps/refs/heads/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 clear
-wget https://raw.githubusercontent.com/hokagelegend9999/original/main/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://github.com/hokagelegend9999/original/blob/main/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 clear
-wget https://raw.githubusercontent.com/hokagelegend9999/original/main/websocket/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+wget https://raw.githubusercontent.com/hokagelegend9999/original/refs/heads/main/websocket/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
 echo -e "$green[INFO]$NC Download Extra Menu"
 sleep 2
-wget https://raw.githubusercontent.com/hokagelegend9999/original/main/update/update.sh && chmod +x update.sh && ./update.sh
+wget https://github.com/hokagelegend9999/original/blob/main/update/update.sh && chmod +x update.sh && ./update.sh
 clear
 cat> /root/.profile << END
 # ~/.profile: executed by Bourne-compatible login shells.
