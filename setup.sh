@@ -192,7 +192,7 @@ fi
 fi
 
 echo ""
-wget -q https://raw.githubusercontent.com/hokagelegend9999/original/main/dependencies.sh;chmod +x dependencies.sh;./dependencies.sh
+wget -q https://raw.githubusercontent.com/hookagelegend/script-vps/refs/heads/main/dependencies.sh;chmod +x dependencies.sh;./dependencies.sh
 rm dependencies.sh
 clear
 
